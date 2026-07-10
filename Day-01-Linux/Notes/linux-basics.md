@@ -1,48 +1,71 @@
+# Linux Fundamentals - Day 1
 
-# Linux Day 1
+## Linux File System
+- /
+- /home
+- /etc
+- /var
+- /usr
+- /tmp
 
-## Date
-30 June
+## Basic Commands
 
-## Topics Covered
-- Linux File System
-- pwd
-- ls
-- cd
-- mkdir
-- touch
-- cp
-- mv
-- rm
+### pwd
+Shows the current working directory.
+
+### ls
+Lists files and directories.
+
+### cd
+Changes the current directory.
+
+### mkdir
+Creates a new directory.
+
+### touch
+Creates a new empty file.
+
+### cp
+Copies files.
+
+### mv
+Moves or renames files.
+
+### rm
+Removes files or directories.
+
+### cat
+Displays file contents.
+
+## Permissions
+
 - chmod
 - chown
-- grep
-- find
-- ps
-- top
-- kill 
-- apt
-- Git Installation
+- chgrp
 
-## What I Learned 
-Today I installed Ubuntu, learned basics Linux commands, installed Git, configured Git, cloned my github repository, and created my DevOps project structure.
+## Package Management
 
+- apt update
+- apt install
+- apt remove
+- apt purge
 
-## Commands Practiced
+## Networking
 
-pwd
-ls
-cd
-mkdir
-touch
-cp
-mv
-rm
-chmod
-chown
-grep
-find
-git --version
-git config
-git clone
+- ip a
+- ping
+- curl
+- wget
+- ss
 
+## Git Commands
+
+- git clone
+- git status
+- git add .
+- git commit
+- git push
+
+## Summary
+
+Today I learned Linux basics, file system, commands, permissions, package management, networking basics and Git.
